@@ -14,6 +14,6 @@ A numeric vector
 \details{
 Multiply scalars together:
 \code{multiply(1, 2)}
-Multiply vectors together:
+Multiply vectors together (element-wise):
 \code{multiply(1:10, rep(2, 10))}
 }
