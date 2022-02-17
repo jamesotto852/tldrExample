@@ -12,7 +12,7 @@
 divide <- function(a, b) {
   if (!is.numeric(a)) stop("a must be numeric")
   if (!is.numeric(b)) stop("b must be numeric")
-  if (b == 0) stop("b must be non-zero")
+  if (any(abs(b) < .Machine$double.eps)) stop("b must be non-zero")
   if (length(a) != length(b)) stop("a and b must be vectors of the same length")
 
 
