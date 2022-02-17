@@ -22,7 +22,6 @@ multiply <- function(a, b) {
   if (!is.numeric(b)) stop("b must be numeric")
   if (length(a) != length(b)) stop("a and b must be vectors of the same length")
 
-
   a * b
 }
 
