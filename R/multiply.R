@@ -2,9 +2,17 @@
 #'
 #' @param a First element to be multiplied
 #' @param b Second element to be multiplied
+#' @paramtldr a Multiplier
+#' @paramtldr b Multiplicand
 #'
 #' @return A numeric vector
 #' @export
+#'
+#' @exampletldr Multiply scalars together:
+#' \code{multiply(1, 2)}
+#'
+#' @exampletldr Multiply vectors together:
+#' \code{multiply(1:10, rep(2, 10))}
 #'
 #' @examples
 #' multiply(1, 2)
