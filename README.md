@@ -8,7 +8,7 @@
 
 **tldrExample** exports several simple functions (`multiply()`,
 `divide()`, …) with
-<a href = "https://github.com/jamesotto852/tldr">**tldr**</a> -style
+<a href = "https://github.com/jamesotto852/tldr">**tldr**</a>-style
 documentation:
 
 ![tldr-ex-1](man/README-assets/tldr-ex.png)
