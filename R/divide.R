@@ -1,14 +1,28 @@
 #' Safe division of numeric vectors
 #'
+#' @name divide
+#' @rdname divide
+#'
 #' @param a Numerator
 #' @param b Denominator
+#' @paramtldr a Numerator
+#' @paramtldr b Denominator
 #'
 #' @return A numeric vector
-#' @export
+#'
+#' @exampletldr Divide scalars:
+#' \code{divide(1, 2)}
+#'
+#' @exampletldr Divide vectors (element-wise):
+#' \code{divide(1:10, rep(2, 10))}
 #'
 #' @examples
-#' multiply(1, 2)
-#' multiply(1:10, rep(2, 10))
+#' divide(1, 2)
+#' divide(1:10, rep(2, 10))
+NULL
+
+#' @rdname divide
+#' @export
 divide <- function(a, b) {
   if (!is.numeric(a)) stop("a must be numeric")
   if (!is.numeric(b)) stop("b must be numeric")

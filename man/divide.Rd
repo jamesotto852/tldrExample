@@ -21,6 +21,6 @@ A numeric vector
 Safe division of numeric vectors
 }
 \examples{
-multiply(1, 2)
-multiply(1:10, rep(2, 10))
+divide(1, 2)
+divide(1:10, rep(2, 10))
 }
