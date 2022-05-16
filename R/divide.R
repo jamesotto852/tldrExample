@@ -12,6 +12,7 @@
 #'
 #' @exampletldr Divide scalars:
 #' \code{divide(1, 2)}
+#' \code{fraction(1, 2)}
 #'
 #' @exampletldr Divide vectors (element-wise):
 #' \code{divide(1:10, rep(2, 10))}
