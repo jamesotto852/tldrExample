@@ -2,7 +2,14 @@
 #'
 #' A long tidy tibble containing a multiplication table
 #'
-#' @format A data frame with 100 rows and 3 variables:
+#' @format A tidy data frame with 100 rows and 3 variables:
+#' \describe{
+#'   \item{x}{Multiplicand}
+#'   \item{y}{Multiplier}
+#'   \item{z}{Product}
+#' }
+#'
+#' @formattldr A data frame w/ 100 rows and 3 variables:
 #' \describe{
 #'   \item{x}{Multiplicand}
 #'   \item{y}{Multiplier}
@@ -14,7 +21,14 @@
 #'
 #' A long tidy tibble containing a division table
 #'
-#' @format A data frame with 100 rows and 3 variables:
+#' @format A tidy data frame with 100 rows and 3 variables:
+#' \describe{
+#'   \item{x}{Numerator}
+#'   \item{y}{Denominator}
+#'   \item{z}{Quotient}
+#' }
+#'
+#' @formattldr A data frame w/ 100 rows and 3 variables:
 #' \describe{
 #'   \item{x}{Numerator}
 #'   \item{y}{Denominator}
