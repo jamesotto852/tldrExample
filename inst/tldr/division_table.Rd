@@ -4,7 +4,7 @@
 \alias{division_table}
 \title{Division table}
 \format{
-A data frame w/ 100 rows and 3 variables
+A data frame w/ 100 rows and 3 cols:
 \describe{
   \item{x}{Numerator}
   \item{y}{Denominator}

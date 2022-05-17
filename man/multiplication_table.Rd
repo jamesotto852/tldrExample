@@ -5,7 +5,7 @@
 \alias{multiplication_table}
 \title{Multiplication table}
 \format{
-A tidy data frame with 100 rows and 3 variables:
+A tidy data frame with 100 rows and 3 columns:
 \describe{
 \item{x}{Multiplicand}
 \item{y}{Multiplier}
