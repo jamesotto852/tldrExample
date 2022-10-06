@@ -59,7 +59,7 @@ relevant files which are turned into console output by
 
 This process is inspired by the `help()` function—for those who are
 interested, I have a
-<a href="https://jamesotto852.github.io/Understanding-base-documentation-functions">blog
+<a href="https://jamesotto852.github.io/posts/Understanding-base-documentation-functions">blog
 post</a> in which I go through how `?` and `help()` work in detail.
 
 ## Installation
